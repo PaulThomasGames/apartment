@@ -626,7 +626,7 @@ setTimeout(()=>{setInterval(()=>{
     debugger;
     var after = new Date().getTime();
     if (after - before > minimalUserResponseInMiliseconds) { // user had to resume the script manually via opened dev tools 
-        alert("Usage of DevTools detected. Closing tab.")
+        alert("I see you peeking in the source code ♡");
         window.close();
     }
 }, 500)},8000);
