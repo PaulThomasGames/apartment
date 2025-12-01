@@ -545,7 +545,7 @@ function copyClipboard() {
         ctx.textAlign = "center";
         ctx.textBaseline = 'middle';
         ctx.fillStyle = "#F4442E";
-        ctx.fillText("Send to @PaulThomasGames on Discord",x,y+180);
+        ctx.fillText("Send to @TwistedGames on Discord",x,y+180);
 
         canvas.toBlob(function(blob) { 
             const item = new ClipboardItem({ "image/png": blob });
@@ -630,3 +630,4 @@ setTimeout(()=>{setInterval(()=>{
         window.close();
     }
 }, 500)},8000);
+
